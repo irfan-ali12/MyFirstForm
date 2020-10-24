@@ -1,0 +1,115 @@
+*{
+padding: 0px;
+margin: 0px;   
+}
+body{
+    background-image: url(17.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:1400px 850px;
+}
+.main{ 
+    padding-left: 50px;
+}
+form{
+    border: 2px solid green;
+    background-color: rgba(8, 121, 8,0.5);
+    border-radius: 0px 0px 20px 20px;
+    width: 700px;
+    height: 600px;
+    margin-left: 290px;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    background-color:rgb(8, 121, 8);
+    border-radius: 15px 15px 0px 0px;
+    margin-top: 30px;
+    margin-left: 290px;
+    padding-top: 10px;
+    padding-left: 50px;
+    border: 2px solid green;
+    width: 700px;
+    height: 50px;
+}
+
+h2{
+    display: inline-block;
+    color: white;
+    margin-top: 15px;
+}
+.input{
+    display: inline;
+    padding-left: 60px;
+}
+.Lfirst-name{
+    margin-left: 130px;
+}
+.Llast-name{
+    margin-left: 120px;
+}
+.company{
+    margin-left: 20px;
+    display: inline;
+}
+.input-company{
+    width: 360px;
+}
+.input-email{
+    width:360px ;
+}
+.input-code{
+    width: 60px;
+}
+.input-number{
+margin-left: 50px;
+width:220px ;
+}
+.area-code{
+    margin-left: 130px;
+}
+.contact-number{
+    margin-left: 70px;
+}
+#options{
+    margin-left: 50px;
+    width: 200px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px 5px;
+    outline: none;
+    overflow: hidden;
+    color: grey;
+}
+input{
+    height: 35px;
+    border: 1px solid green;
+    border-radius: 5px 5px;
+    padding-left: 20px;
+}
+label{
+    color: white;
+    font-size: 15px;
+}
+
+button{
+    border-radius:10px 10px 10px 10px;
+    color: white;
+    background-color:rgba(8, 121, 8,1);
+    cursor: pointer;
+    padding-bottom: 50px;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+}
+button:active{
+    color:rgba(150, 244,0,1);
+}
+button:hover{
+    color: yellow;
+    background-color:rgba(25, 255,0,1);
+}
